@@ -25,7 +25,7 @@ export default class Office extends React.Component {
 						<h1 className="card-office-btn-name font-white">{office}</h1>
 					</div>
 					<div className="card-office-btn-link">
-            <a href={"vnd.safari://" + this.props.office.v_card_link.replace("https://", "") }>fake</a>
+            <a className="font-white" href="vnd.safari://google.com">GOOGLE</a>
 						<a className="font-white" href={this.props.office.v_card_link} target="_system">
 							<i className="fa fa-address-card fa-white" aria-hidden="true"></i>
 							{" Download contact"}
